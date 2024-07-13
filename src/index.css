@@ -1,0 +1,40 @@
+
+.btn-nav{
+    border-radius: 50px;
+    background-color: orangered !important;
+    transition: width 5s !important;
+    
+}
+
+.btn-nav:hover{
+    background-color: blue !important;
+    width: 100px;
+    transition-duration: 5s !important;
+    transition-timing-function: ease-in-out !important;
+    transition-delay: 5s !important;
+}
+
+.btn-tooltip{
+    background-color: orangered !important;
+    transition: width 5s !important;
+}
+
+.logo{
+    border-radius: 50px;
+}
+
+.bg-eaglesteamnav{
+    background-color: grey !important;
+}
+.bg-hornetsteamnav{
+    background-color: rgb(0, 225, 255) !important;
+}
+.bg-pelicansteamnav{
+    background-color: rgb(187, 142, 82) !important;
+}
+.bg-hawksteamnav{
+    background-color: red !important;
+}
+.bg-bucksteamnav{
+    background-color: green !important;
+}
