@@ -27,12 +27,11 @@ const Bucks = () => {
                         <Link className="nav-link" to="/eagles"><img src={EaglesLogo} alt="" /></Link>
                         <Link className="nav-link" to="/hornets"><img src={HornetsLogo} alt="" /></Link>
                         <Link className="nav-link" to="/pelicans"><img src={PelicansLogo} alt="" /></Link>
-                        <div><b type="button" className="btn-tooltip" data-bs-toggle="tooltip" data-bs-html="true" title="MBL TEAM LINKS">
-                        <ToolTip/>
-                        </b></div>
                     </div>
+                    <Link to="https://forms.gle/vNK9SKegbToKVUq5A" className='link'>
+                      <Button content="REGISTER NOW"   design="btn btn-nav " />
+                    </Link>
                     
-                    <Button content="EXPLORE" design="btn btn-nav text-white" />
                 </div>
 
             </div>
