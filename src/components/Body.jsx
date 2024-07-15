@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Body = ({children, design}) => {
+const Body = ({children, design, style}) => {
   return (
-    <div className={design}>
+    <div className={design} style={style}>
         {children}
     </div>
   )

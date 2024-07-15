@@ -32,7 +32,7 @@ const Navbar = () => {
                     
                     <Button content={<Link to="https://forms.gle/vNK9SKegbToKVUq5A" className='link'>
                       REGISTER
-                    </Link>} design="btn btn-nav text-white" />
+                    </Link>} design="btn btn-nav text-white"/>
                 </div>
 
             </div>
