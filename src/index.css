@@ -77,20 +77,18 @@
 }
 .parallelogram-link {
 	background: black;
-  font-family: var(--dmsans);
 }
 .LS{
     background-color: black;
 }
 
 .sacremento{
-  font-family: var(--sacramento);
+  font-family: var(--sacramento) !important;
   font-size: 100px !important;
 }
 
 .increase{
-  font-family: var(--dmsans);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .bodyimg{
@@ -103,7 +101,10 @@
 
 .norms{
   padding: 300px 100px;
-  font-family: var(--dmsans);
   font-size: 80px;
 
+}
+
+.basket{
+  width: 100%;
 }

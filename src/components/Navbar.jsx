@@ -30,9 +30,8 @@ const Navbar = () => {
                         </b></div>
                     </div>
                     
-                    <Button content={<Link to="https://forms.gle/vNK9SKegbToKVUq5A" className='link'>
-                      REGISTER
-                    </Link>} design="btn btn-nav text-white"/>
+                    <Button content="Register" desitnation="https://forms.gle/vNK9SKegbToKVUq5A" design=' btn btn-nav'/>
+                    
                 </div>
 
             </div>

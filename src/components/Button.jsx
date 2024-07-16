@@ -1,10 +1,11 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
-const Button = ({content, design}) => {
+const Button = ({content, design,desitnation}) => {
   return (
-    <div className={design}>
+    <Link className={design} to={desitnation}>
       {content}
-    </div>
+    </Link>
   )
 }
 

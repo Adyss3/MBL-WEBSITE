@@ -1,10 +1,10 @@
-import React, { Children } from 'react'
+import React, { children } from 'react'
 
-const Section = ({design, children}) => {
+const Section = ({ children, design, style}) => {
   return (
-    <div className={design}>
+    <section className={design} style={style}>
       {children}
-    </div>
+    </section>
   )
 }
 
