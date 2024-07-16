@@ -22,9 +22,9 @@ const HomePage = () => {
     return (
         <div>
             <Navbar />
-            <Section design="bg-black py-5">
+            <Section design="bg-black pt-3 ">
                 <div className="container">
-                    <div className="row justify-content-center align-items-center text">
+                    <div className="row ">
                         <div className="col-4  text-center ">
                             <Button content="LATEST NEWS" design="text-decoration-none text-white" />
                         </div>
