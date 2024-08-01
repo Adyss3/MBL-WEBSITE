@@ -20,17 +20,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
                 
                     <div className="navbar-nav me-auto ms-auto">
-                        <Link className="nav-link" to="/bucks"><img src={BucksLogo} alt="" /></Link>
-                        <Link className="nav-link" to="/hawks"><img src={HawksLogo} alt="" /></Link>
-                        <Link className="nav-link" to="/eagles"><img src={EaglesLogo} alt="" /></Link>
-                        <Link className="nav-link" to="/hornets"><img src={HornetsLogo} alt="" /></Link>
-                        <Link className="nav-link" to="/pelicans"><img src={PelicansLogo} alt="" /></Link>
-                        <div><b type="button" className="btn-tooltip" data-bs-toggle="tooltip" data-bs-html="true" title="MBL TEAM LINKS">
+                        <div>
+                        <Link className="nav-link " to="/bucks"><img src={BucksLogo} alt="" /></Link>
+                        </div>
+                        <Link className="nav-link " to="/hawks"><img src={HawksLogo} alt="" /></Link>
+                        <Link className="nav-link " to="/eagles"><img src={EaglesLogo} alt="" /></Link>
+                        <Link className="nav-link " to="/hornets"><img src={HornetsLogo} alt="" /></Link>
+                        <Link className="nav-link " to="/pelicans"><img src={PelicansLogo} alt="" /></Link>
+                        <div><b type="button" className="btn-tooltip " data-bs-toggle="tooltip" data-bs-html="true" title="MBL TEAM LINKS">
                         <ToolTip/>
                         </b></div>
                     </div>
                     
-                    <Button content="Register" desitnation="https://forms.gle/vNK9SKegbToKVUq5A" design=' btn btn-nav'/>
+                    <Button content="Register" desitnation="https://forms.gle/vNK9SKegbToKVUq5A" design=' btn btn-nav pt-2 mt-2'/>
                     
                 </div>
 

@@ -24,7 +24,7 @@ const Eagles = () => {
                     <div className="navbar-nav me-auto ms-auto">
                         <Link className="nav-link " to="/bucks"><img src={BucksLogo} alt="" /></Link>
                         <Link className="nav-link " to="/hawks"><img src={HawksLogo} alt="" /></Link>
-                        <Link className="nav-link bg-white logo" to="/eagles"><img src={EaglesLogo} alt="" /></Link>
+                        <Link className="nav-link bg-white logo my-2 text-center" to="/eagles"><img src={EaglesLogo} alt="" /></Link>
                         <Link className="nav-link" to="/hornets"><img src={HornetsLogo} alt="" /></Link>
                         <Link className="nav-link" to="/pelicans"><img src={PelicansLogo} alt="" /></Link>
                     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import MblLogo from "../assets/mbl/mbl small.png"
-import BucksLogo from "../assets/bucks/bucks small.png"
+
 import HawksLogo from "../assets/hawks/hawks small.png"
 import EaglesLogo from "../assets/eagles/eagles small.png"
 import HornetsLogo from "../assets/hornets/hornets small.png"
@@ -26,7 +26,7 @@ const Pelicans = () => {
                         <Link className="nav-link" to="/hawks"><img src={HawksLogo} alt="" /></Link>
                         <Link className="nav-link" to="/eagles"><img src={EaglesLogo} alt="" /></Link>
                         <Link className="nav-link" to="/hornets"><img src={HornetsLogo} alt="" /></Link>
-                        <Link className="nav-link bg-white logo" to="/pelicans"><img src={PelicansLogo} alt="" /></Link>
+                        <Link className="nav-link bg-white logo my-2 text-center" to="/pelicans"><img src={PelicansLogo} alt="" /></Link>
                     </div>
                     
                     <Button content={<Link to="https://forms.gle/vNK9SKegbToKVUq5A" className='link'>
