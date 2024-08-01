@@ -83,8 +83,8 @@ const Bucks = () => {
                     <img src={BucksLogos} className='d-block text-center w-100' alt="" />
                   </div>
                   <div className="carousel-item" >
-                    <video src={Jiggy} className='d-block w-100 ' autoPlay="true" height="500px" controls="controls" />
-                    <div className="carousel-caption d-none d-md-block">
+                    <video src={Jiggy} className='d-block w-100 '  height="500px" controls="controls" />
+                    <div className="carousel-caption  d-block">
                       <h5>OGUNLEYE IYIOLA</h5>
                       <p>potential abiala bucks first round pick already in the lab cooking</p>
                     </div>
