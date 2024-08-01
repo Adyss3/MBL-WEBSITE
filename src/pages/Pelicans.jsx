@@ -1,6 +1,6 @@
 import React from 'react'
 import MblLogo from "../assets/mbl/mbl small.png"
-
+import BucksLogo from "../assets/bucks/bucks small.png"
 import HawksLogo from "../assets/hawks/hawks small.png"
 import EaglesLogo from "../assets/eagles/eagles small.png"
 import HornetsLogo from "../assets/hornets/hornets small.png"
